@@ -19,6 +19,8 @@
 #include <zephyr/pm/device.h>
 #include <zephyr/pm/device_runtime.h>
 #include <zephyr/sys/util.h>
+#include "pmw3610.h"
+
 
 LOG_MODULE_REGISTER(input_paw32xx, CONFIG_INPUT_LOG_LEVEL);
 
