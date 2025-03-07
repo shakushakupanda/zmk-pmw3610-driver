@@ -3,7 +3,7 @@
 
 description: PAW32xx ultra low power wireless mouse chip
 
-compatible: "pixart,paw32xx"
+compatible: "pixart,pwm3610"
 
 include: spi-device.yaml
 
