@@ -1,13 +1,6 @@
 # Copyright 2024 Google LLC
 # SPDX-License-Identifier: Apache-2.0
 
-menuconfig PMW3610
-    bool "PMW3610 mouse optical sensor"
-  select SPI
-    help
-      Enable PMW3610 mouse optical sensor.
-
-if PMW3610
 
 config INPUT_PAW32XX
 	bool "PAW32xx ultra low power wireless mouse chip"
@@ -20,5 +13,3 @@ config INPUT_PAW32XX
 module = PMW3610
 module-str = PMW3610
 source "${ZEPHYR_BASE}/subsys/logging/Kconfig.template.log_config"
-
-endif #PMW3610
