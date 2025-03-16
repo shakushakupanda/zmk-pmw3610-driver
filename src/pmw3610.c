@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#define DT_DRV_COMPAT pixart_paw32xx
+#define DT_DRV_COMPAT pixart_pmw3610
 
 #include <stdint.h>
 #include <stdlib.h>
@@ -22,7 +22,7 @@
 #include "pmw3610.h"
 
 
-LOG_MODULE_REGISTER(input_paw32xx, CONFIG_INPUT_LOG_LEVEL);
+LOG_MODULE_REGISTER(pmw3610, CONFIG_INPUT_LOG_LEVEL);
 
 #define PAW32XX_PRODUCT_ID1	0x00
 #define PAW32XX_PRODUCT_ID2	0x01
