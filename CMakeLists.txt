@@ -3,4 +3,7 @@
 #
 # SPDX-License-Identifier: LicenseRef-Nordic-5-Clause
 #
+zephyr_library()
 
+zephyr_library_sources_ifdef(CONFIG_INPUT_PAW32xx src/paw3222.c)
+zephyr_include_directories(${APPLICATION_SOURCE_DIR}/include)
