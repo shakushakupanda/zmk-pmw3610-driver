@@ -6,4 +6,4 @@
 
 zephyr_library()
 
-zephyr_library_sources(paw3212.c)
+zephyr_library_sources(paw3222.c)
