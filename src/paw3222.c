@@ -20,7 +20,7 @@
 #include <zephyr/pm/device_runtime.h>
 #include <zephyr/sys/util.h>
 
-LOG_MODULE_REGISTER(input_paw32xx, CONFIG_INPUT_LOG_LEVEL);
+LOG_MODULE_REGISTER(paw32xx, CONFIG_INPUT_LOG_LEVEL);
 
 #define PAW32XX_PRODUCT_ID1	0x00
 #define PAW32XX_PRODUCT_ID2	0x01
