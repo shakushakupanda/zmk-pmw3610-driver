@@ -5,5 +5,5 @@
 #
 zephyr_library()
 
-zephyr_library_sources_ifdef(src/paw3222.c)
+zephyr_library_sources(src/paw3222.c)
 zephyr_include_directories(${APPLICATION_SOURCE_DIR}/include)
